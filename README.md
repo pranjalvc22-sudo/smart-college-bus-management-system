@@ -19,13 +19,26 @@ A role-based web application developed to simplify and digitize college transpor
 - CSS
 - JavaScript
 
-## Future Enhancements
+## Features
 
-- GPS Integration
-- Mobile and Web based Application
-- Live Notifications
+### Student Module
+- View assigned bus details
+- Check route information
+- Track bus location (simulation)
+- View attendance status
 
-  ## Screenshots
+### Driver Module
+- View assigned routes
+- Update bus status
+- Manage trip information
+
+### Admin Module
+- Manage students and drivers
+- Manage bus routes
+- Monitor transportation activities
+
+
+## Screenshots
 
 ### Admin Page
 
@@ -44,3 +57,14 @@ A role-based web application developed to simplify and digitize college transpor
 ### Driver Page
 
 ![driverPage](driverPage.png)
+
+## Future Enhancements
+
+- GPS-based live bus tracking
+- RFID-based attendance system
+- Backend integration using database
+- Mobile application support
+- Real-time notifications
+
+GitHub:
+https://github.com/pranjalvc22-sudo
