@@ -29,7 +29,7 @@ A role-based web application developed to simplify and digitize college transpor
 
 ### Admin Page
 
-![Admin Page](screenshots/adminPage.png)
+![adminPage](screenshots/adminPage.png)
 
 ### Location Page
 
