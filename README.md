@@ -33,7 +33,7 @@ A role-based web application developed to simplify and digitize college transpor
 
 ### Location Page
 
-![Location Page](screenshots/location.png)
+![Location Page](location.png)
 
 ### Student Page
 
