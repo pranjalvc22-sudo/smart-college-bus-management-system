@@ -33,15 +33,14 @@ A role-based web application developed to simplify and digitize college transpor
 
 ### Location Page
 
-![Location Page](location.png)
+![location](location.png)
 
 ### Student Page
 
-![Student Dashboard](screenshots/studentPage1.png)
+![studentPage1](studentPage1.png)
 
-![Student Dashboard](screenshots/studentPage2.png)
-
+![studentPage2](studentPage2.png)
 
 ### Driver Page
 
-![Admin Page](screenshots/driverPage.png)
+![driverPage](driverPage.png)
