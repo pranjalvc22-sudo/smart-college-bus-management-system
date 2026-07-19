@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Bus System</title>
+  <link rel="stylesheet" href="student1 (1).css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Student Bus Tracker</h1>
+
+    <div id="info" class="info-box">
+      <p id="distance">Distance: --</p>
+      <p id="time">Local Time: --</p>
+      <p id="eta">ETA: --</p>
+    </div>
+
+    <div id="status" class="status-box"></div>
+
+    <div class="btn-group">
+      <button id="attendanceBtn" disabled>Mark Attendance</button>
+      <button id="notifyBtn" disabled>I'm coming, please wait!</button>
+
+      <!-- ✅ NEW BUTTON -->
+      <button onclick="openGPS()">Get Location</button>
+    </div>
+  </div>
+
+  <script src="student1.js"></script>
+</body>
+</html>

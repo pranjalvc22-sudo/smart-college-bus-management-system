@@ -1,0 +1,63 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.route-container {
+  position: relative;
+  width: 90%;
+  height: 150px;
+  margin: 50px auto;
+}
+
+.line {
+  position: absolute;
+  top: 70px;
+  width: 100%;
+  height: 4px;
+  background: black;
+}
+
+.stop {
+  position: absolute;
+  top: 50px;
+  transform: translateX(-50%);
+  font-size: 12px;
+}
+
+.stop::after {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: red;
+  border-radius: 50%;
+  margin: 5px auto;
+}
+
+#bus {
+  position: absolute;
+  top: 90px;
+  left: 5%;
+  font-size: 24px;
+  transition: left 2s linear;
+}
+
+#status {
+  color: green;
+}

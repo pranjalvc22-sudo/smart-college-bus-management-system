@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Bus Tracking</title>
+  <link rel="stylesheet" href="gps (1).css">
+</head>
+<body>
+
+<h2>College Bus Tracking System</h2>
+
+<button onclick="startTracking()">Get Location</button>
+
+<!-- Current Status -->
+<h3 id="status">Bus Status: Not Started</h3>
+
+<!-- Time Table -->
+
+
+<div class="route-container">
+  <div class="line"></div>
+
+  <div class="stop" style="left: 5%;">Mission Chowk</div>
+  <div class="stop" style="left: 20%;">VijayNagar</div>
+  <div class="stop" style="left: 35%;">Vishrambaag</div>
+  <div class="stop" style="left: 50%;">Inam Dhamni</div>
+  <div class="stop" style="left: 65%;">Ankali</div>
+  <div class="stop" style="left: 80%;">Jaysingpur</div>
+  <div class="stop" style="left: 95%;">DKTE College</div>
+
+  <div id="bus">🚌</div>
+</div>
+
+<script src="gps.js"></script>
+
+</body>
+</html>

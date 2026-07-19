@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart College Bus System</title>
+    <link rel="stylesheet" href="project (1).css">
+</head>
+<body>
+
+    <h1>Smart College Bus Tracking System</h1>
+
+    <!-- ✅ BUS SELECTION (FIXED) -->
+    <div style="margin: 15px;">
+        <label>Select Bus: </label>
+
+        <select id="adminBusSelect">
+            <option value="">Choose Bus</option>
+            <option value="1">Bus 1</option>
+            <option value="2">Bus 2</option>
+            <option value="3">Bus 3</option>
+            <option value="4">Bus 4</option>
+            <option value="5">Bus 5</option>
+        </select>
+
+        <button onclick="selectBus()">Select Bus</button>
+        <button onclick="openGPS()">View GPS</button>
+    </div>
+
+    <!-- Selected Bus Display -->
+    <h3 id="selectedBus">Selected Bus: --</h3>
+
+    <div class="bus-container">
+
+        <div class="bus-card">
+            <h2>Bus 1</h2>
+            <p>Status: <span class="status">On Route</span></p>
+            <p>ETA: <span class="eta">10 min</span></p>
+            <button onclick="updateBus(0)">Update</button>
+        </div>
+
+        <div class="bus-card">
+            <h2>Bus 2</h2>
+            <p>Status: <span class="status">Arriving</span></p>
+            <p>ETA: <span class="eta">5 min</span></p>
+            <button onclick="updateBus(1)">Update</button>
+        </div>
+
+        <div class="bus-card">
+            <h2>Bus 3</h2>
+            <p>Status: <span class="status">Reached</span></p>
+            <p>ETA: <span class="eta">0 min</span></p>
+            <button onclick="updateBus(2)">Update</button>
+        </div>
+
+        <div class="bus-card">
+            <h2>Bus 4</h2>
+            <p>Status: <span class="status">Reached</span></p>
+            <p>ETA: <span class="eta">0 min</span></p>
+            <button onclick="updateBus(3)">Update</button>
+        </div>
+
+        <div class="bus-card">
+            <h2>Bus 5</h2>
+            <p>Status: <span class="status">Reached</span></p>
+            <p>ETA: <span class="eta">0 min</span></p>
+            <button onclick="updateBus(4)">Update</button>
+        </div>
+
+    </div>
+
+    <script src="project (1).js"></script>
+
+</body>
+</html> 
